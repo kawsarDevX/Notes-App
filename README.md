@@ -1,5 +1,5 @@
 # Notes-App
 
 - You can create notes 
-- you can delete notes
+- you can view notes
 - update comming soon
