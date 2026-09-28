@@ -2,4 +2,7 @@
 
 - You can create notes 
 - you can view notes
-- update comming soon
+- you can delete notes
+
+# New update version 1.1 Features 
+- Delete All Notes

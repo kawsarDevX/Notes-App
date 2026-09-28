@@ -4,7 +4,8 @@ while True:
 
     1. New Note
     2. View Note
-    3. Exit
+    3. Delete All Notes
+    4. Exit
     """)
     try:       
         user = int(input("CHOSE: "))
@@ -27,6 +28,11 @@ while True:
                 print("You don't have any notes yet.")
                 continue
         elif user == 3:
+            with open("notes.txt","w") as file:
+                pass
+            print("Your All Notes successfuly Deleted")
+        elif user == 4:
+            print("Thank you.....")
             exit()
     except ValueError:
         print("Please chose right option 1/2/3....")
